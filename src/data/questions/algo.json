@@ -1,0 +1,75 @@
+[
+  {
+    "id": "ALGO17",
+    "questionNumber": 1,
+    "text": "Consider recurrences: For n>1, T₁(n) = 4T₁(n/2) + T₂(n), T₂(n) = 5T₂(n/4) + Θ(log₂n). For n≤1, T₁(n)=T₂(n)=1. Which option is correct?",
+    "type": "Multiple Choice",
+    "options": {
+      "A": "T₁(n) = Θ(n²)",
+      "B": "T₁(n) = Θ(n²log₂n)",
+      "C": "T₁(n) = Θ(n^{log₄5})",
+      "D": "T₁(n) = Θ(n^{log₄5}log₂n)"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "id": "ALGO41",
+    "questionNumber": 2,
+    "text": "Let G(V,E) be an undirected edge-weighted graph. Let dₖ(u) denote weight of shortest path from s to u of length at most k. S1: For every k≥0 and u∈V, dₖ₊₁(u) ≤ dₖ(u). S2: For every (u,v)∈E, if (u,v) is part of a shortest path from s to v, then for every k≥0, dₖ(u) ≤ dₖ(v). Which is correct?",
+    "type": "Multiple Choice",
+    "options": { "A": "Only S1 is true", "B": "Only S2 is true", "C": "Both S1 and S2 are true", "D": "Neither S1 nor S2 is true" },
+    "correctAnswer": "A"
+  },
+  {
+    "id": "ALGO47",
+    "questionNumber": 3,
+    "text": "Let G(V,E) be a simple undirected graph. A vertex cover of G is V'⊆V such that for every (u,v)∈E, u∈V' or v∈V'. Let size of smallest vertex cover be k. Let S be any vertex cover of size k. For vertex v∈V, which constraint always ensures v∈S?",
+    "type": "Multiple Choice",
+    "options": {
+      "A": "The degree of v is at least k+1",
+      "B": "The vertex v is on a path of length k+1",
+      "C": "The vertex v is on a cycle of length k+1",
+      "D": "The vertex v is part of a clique of size k"
+    },
+    "correctAnswer": "D"
+  },
+  {
+    "id": "ALGO49",
+    "questionNumber": 4,
+    "text": "Let G(V,E) be a simple undirected edge-weighted graph with unique edge weights. Which statement about MSTs of G is/are true?",
+    "type": "Multiple Choice",
+    "options": {
+      "A": "In every cycle C of G, the edge with the largest weight in C is not in any MST",
+      "B": "In every cycle C of G, the edge with the smallest weight in C is in every MST",
+      "C": "For every vertex v∈V, the edge with the largest weight incident on v is not in any MST",
+      "D": "For every vertex v∈V, the edge with the smallest weight incident on v is in every MST"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "id": "ALGO50",
+    "questionNumber": 5,
+    "text": "Consider DFS on a DAG G(V,E). For edge (u,v)∈E, which option will NEVER be correct about discovery/finish times?",
+    "type": "Multiple Choice",
+    "options": {
+      "A": "d[u] < d[v] < f[v] < f[u]",
+      "B": "d[v] < d[u] < f[u] < f[v]",
+      "C": "d[v] < f[v] < d[u] < f[u]",
+      "D": "d[u] < d[v] < f[u] < f[v]"
+    },
+    "correctAnswer": "D"
+  },
+  {
+    "id": "ALGO55",
+    "questionNumber": 6,
+    "text": "An undirected unweighted simple graph G is 2-colorable if there exists c:V→{0,1} such that for every (u,v)∈E, c(u)≠c(v). Which statement(s) about 2-colorable graphs is/are true?",
+    "type": "Multiple Choice",
+    "options": {
+      "A": "If G is 2-colorable, G may contain cycles of odd length",
+      "B": "If G is 2-colorable, G may contain cycles of even length",
+      "C": "Testing 2-colorability runs in Θ(|V|+|E|) with adjacency list",
+      "D": "Testing 2-colorability runs in Θ(|E|log|V|) with adjacency list"
+    },
+    "correctAnswer": "B"
+  }
+]

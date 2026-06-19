@@ -1,0 +1,62 @@
+{
+  "categories": [
+    {
+      "id": "One Shot",
+      "title": "ONE SHOT HUB",
+      "desc": "CRITICAL CONGESTED CONCEPTS CONDENSED FOR RAPID REVIEW CYCLES.",
+      "icon": "Zap"
+    },
+    {
+      "id": "Full Playlist",
+      "title": "FULL SYLLABUS PLAYLISTS",
+      "desc": "SYSTEMATIC CONCEPTS BROKEN DOWN AT ACADEMIC LEVEL.",
+      "icon": "PlayCircle"
+    },
+    {
+      "id": "Notes",
+      "title": "SHORT NOTES HUB",
+      "desc": "AIR-GRADE NOTES WRITTEN TO AVOID TYPICAL TRAPS.",
+      "icon": "FileText"
+    }
+  ],
+  "materials": {
+    "One Shot": {
+      "DATA STRUCTURES": [
+        { "title": "DS MARATHON COMPREHENSIVE - GATE WALLAH", "url": "https://drive.google.com/drive/folders/1" },
+        { "title": "REVISION SPRINT (6 HOURS) - KNOWLEDGE GATE", "url": "https://drive.google.com/drive/folders/2" }
+      ],
+      "ALGORITHMS": [
+        { "title": "ALGO ONE SHOT REVISION - UNACADEMY CSE", "url": "https://drive.google.com/drive/folders/3" }
+      ],
+      "OPERATING SYSTEMS": [
+        { "title": "OS ONE SHOT MARATHON - GATE WALLAH", "url": "https://drive.google.com/drive/folders/4" }
+      ]
+    },
+    "Full Playlist": {
+      "DATA STRUCTURES": [
+        { "title": "DS COMPLETE VIDEO LECTURES - ABDUL BARI", "url": "https://drive.google.com/drive/folders/5" },
+        { "title": "NPTEL ADVANCED DATA STRUCTURES - IIT DELHI", "url": "https://drive.google.com/drive/folders/6" }
+      ],
+      "OPERATING SYSTEMS": [
+        { "title": "OPERATING SYSTEMS PLAYLIST - RAVINDRABABU RAVULA", "url": "https://drive.google.com/drive/folders/7" },
+        { "title": "OS CORE CONCEPTS PLAYLIST - KNOWLEDGE GATE", "url": "https://drive.google.com/drive/folders/8" }
+      ]
+    },
+    "Notes": {
+      "DATA STRUCTURES": [
+        { "title": "AIR 42 COMPLETE HANDWRITTEN NOTES", "url": "https://drive.google.com/drive/folders/9" },
+        { "title": "FORMULA & CODE CHEAT SHEET PDF", "url": "https://drive.google.com/drive/folders/10" }
+      ]
+    }
+  },
+  "quickLinks": [
+    "COMPREHENSIVE FORMULA MASTER SHEET PDF",
+    "CRITICAL PYQ REVISION CYCLE STRATEGY",
+    "HIGH-FREQUENCY GATE ERROR LOG SHEET"
+  ],
+  "peerPapers": [
+    "FOUNDATIONAL MOCK TEST #1 (ALL SYSTEMS)",
+    "CORE CSE COMBINED SYLLABUS SET",
+    "GATE EXPECTED QUESTIONS LIST 2026"
+  ]
+}

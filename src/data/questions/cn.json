@@ -1,0 +1,52 @@
+[
+  {
+    "id": "CN18",
+    "questionNumber": 1,
+    "text": "With respect to a TCP connection between a client and a server, which statement is true?",
+    "type": "Multiple Choice",
+    "options": {
+      "A": "The client and server use a two-way handshake before data transmission",
+      "B": "The server cannot initiate closing before the client initiates closing",
+      "C": "The TCP connection is half-duplex",
+      "D": "The client and server can initiate closing at the same time"
+    },
+    "correctAnswer": "D"
+  },
+  {
+    "id": "CN19",
+    "questionNumber": 2,
+    "text": "Which statement(s) is/are true about HTTP 1.1 interaction between browser and server?",
+    "type": "Multiple Choice",
+    "options": {
+      "A": "HTTP 1.1 allows downloading multiple objects of the same webpage over the same TCP connection if stored on the same server",
+      "B": "HTTP 1.1 allows downloading multiple objects of the same webpage over the same TCP connection even if stored on different servers",
+      "C": "HTTP 1.1 allows sending a request for one object without waiting for a previous request to complete",
+      "D": "HTTP 1.1 allows downloading multiple webpages on the same server over a single TCP connection"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "id": "CN44",
+    "questionNumber": 3,
+    "text": "TCP sender establishes connection and starts transmission. Slow-start threshold = 10000 segments. RTT = 1 ms. No segment loss. Let t be the time (in ms) when transmission of segment 2000 starts. Which is correct?",
+    "type": "Multiple Choice",
+    "options": { "A": "9 ≤ t < 10", "B": "10 ≤ t < 11", "C": "11 ≤ t < 12", "D": "12 ≤ t < 13" },
+    "correctAnswer": "B"
+  },
+  {
+    "id": "CN45",
+    "questionNumber": 4,
+    "text": "Sliding window protocol over lossless link with window size W frames, each 1000 bits. Bandwidth = 100 kbps, one-way propagation delay = 100 ms. Processing and ACK transmission times are zero. Minimum W for 100% link utilization?",
+    "type": "Multiple Choice",
+    "options": { "A": "10", "B": "21", "C": "20", "D": "11" },
+    "correctAnswer": "B"
+  },
+  {
+    "id": "CN56",
+    "questionNumber": 5,
+    "text": "An ISP with address block 202.16.0.0/15 assigns 6000 IP addresses to a client using CIDR. Which block can be assigned?",
+    "type": "Multiple Choice",
+    "options": { "A": "202.16.0.0/19", "B": "202.17.64.0/19", "C": "202.16.32.0/19", "D": "202.17.24.0/19" },
+    "correctAnswer": "B"
+  }
+]

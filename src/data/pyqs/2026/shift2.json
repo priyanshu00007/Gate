@@ -1,0 +1,660 @@
+[
+    {
+        "id":  "S2GA1",
+        "questionNumber":  1,
+        "section":  "GA",
+        "text":  "Expedite, Hasten, Hurry, __________ Fill the blank by choosing a word with a meaning similar to that of the words given above.",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "Accelerate",
+                        "B":  "Retard",
+                        "C":  "Provide",
+                        "D":  "Disable"
+                    },
+        "correctAnswer":  "A"
+    },
+    {
+        "id":  "S2GA3",
+        "questionNumber":  3,
+        "section":  "GA",
+        "text":  "A day can only be cloudy or sunny. The probability of a day being cloudy is 0.5, independent of the condition on other days. What is the probability that in any given four days, there will be three cloudy days and one sunny day?",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "1/4",
+                        "B":  "3/4",
+                        "C":  "2/3",
+                        "D":  "3/8"
+                    },
+        "correctAnswer":  "A"
+    },
+    {
+        "id":  "S2GA4",
+        "questionNumber":  4,
+        "section":  "GA",
+        "text":  "The values of Stock A and Stock B on a particular day are Rs. 50 and Rs. 80, respectively. An investor invests Rs. 100 in Stock A and Rs. 80 in Stock B. He sells all the stocks the next day when the value of Stock A is Rs. 55 and Stock B is Rs. 70. The profit made by the investor is Rs. ________",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "0",
+                        "B":  "5",
+                        "C":  "10",
+                        "D":  "20"
+                    },
+        "correctAnswer":  "A"
+    },
+    {
+        "id":  "S2GA5",
+        "questionNumber":  5,
+        "section":  "GA",
+        "text":  "\u0027When it is raining, peacocks dance.\u0027 Based only on this sentence, which one of the following options is necessarily true?",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "Peacocks dance only when it is raining.",
+                        "B":  "When peacocks dance, it is raining.",
+                        "C":  "When peacocks are not dancing, it is not raining.",
+                        "D":  "When it is not raining, peacocks do not dance."
+                    },
+        "correctAnswer":  "C"
+    },
+    {
+        "id":  "S2GA6",
+        "questionNumber":  6,
+        "section":  "GA",
+        "text":  "Water : P :: Food : Q. Choose the P and Q combination from the options below to form a meaningful analogy.",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "P = Thirst; Q = Hunger",
+                        "B":  "P = Drink; Q = Hunger",
+                        "C":  "P = Thirst; Q = Satiated",
+                        "D":  "P = Wet; Q = Critic"
+                    },
+        "correctAnswer":  "A"
+    },
+    {
+        "id":  "S2GA10",
+        "questionNumber":  10,
+        "section":  "GA",
+        "text":  "An unbiased six-faced dice whose faces are marked with numbers 1 through 6 is rolled twice. The probability that the sum of the two recorded numbers is a prime number is ________",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "3/36",
+                        "B":  "13/36",
+                        "C":  "15/36",
+                        "D":  "19/36"
+                    },
+        "correctAnswer":  "C"
+    },
+    {
+        "id":  "S2T11",
+        "questionNumber":  11,
+        "section":  "EM",
+        "text":  "For two different persons x and y, the predicate M(x,y) denotes that x knows y. Consider: \u0027There is a person who does not know anyone else, but that person is known by everyone else.\u0027 Which expression represents the above statement?",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "(∃y)(∀x)((x≠y) → (M(x,y) ∧ ¬M(y,x)))",
+                        "B":  "(∀y)(∃x)((x≠y) → (M(x,y) ∧ ¬M(y,x)))",
+                        "C":  "(∃y)(∃x)((x≠y) → (M(x,y) ∧ ¬M(y,x)))",
+                        "D":  "(∀y)(∀x)((x≠y) → (M(x,y) ∧ ¬M(y,x)))"
+                    },
+        "correctAnswer":  "A"
+    },
+    {
+        "id":  "S2T12",
+        "questionNumber":  12,
+        "section":  "DSA",
+        "text":  "Set T represents various traversals over binary tree. Set S represents order of visiting nodes. I: Inorder, II: Preorder, III: Postorder. L: left subtree, node, right subtree. M: node, left subtree, right subtree. N: left subtree, right subtree, node. Which is the correct match from T to S?",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "I-L, II-M, III-N",
+                        "B":  "I-M, II-L, III-N",
+                        "C":  "I-N, II-M, III-L",
+                        "D":  "I-L, II-N, III-M"
+                    },
+        "correctAnswer":  "A"
+    },
+    {
+        "id":  "S2T13",
+        "questionNumber":  13,
+        "section":  "TOC",
+        "text":  "Which one of the following statements is equivalent to: Turing machine M decides the language L ⊆ {0,1}* ?",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "Turing machine M halts on all input strings in {0,1}*",
+                        "B":  "Turing machine M accepts all input strings in L",
+                        "C":  "Turing machine M rejects all input strings in {0,1}* − L",
+                        "D":  "Turing machine M accepts all input strings in L and rejects all input strings in {0,1}* − L"
+                    },
+        "correctAnswer":  "D"
+    },
+    {
+        "id":  "S2T14",
+        "questionNumber":  14,
+        "section":  "EM",
+        "text":  "The probability density function f(x) of a random variable X is f(x) = (1/(3√(2π))) exp(-x²/18), x∈(-∞,∞). Which statement is correct about X?",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "X is an exponential random variable",
+                        "B":  "X is a normal random variable",
+                        "C":  "X is a Poisson random variable",
+                        "D":  "X is a uniform random variable"
+                    },
+        "correctAnswer":  "B"
+    },
+    {
+        "id":  "S2T15",
+        "questionNumber":  15,
+        "section":  "DBMS",
+        "text":  "Match: T (I: Logical schema, II: Physical schema, III: External schema) with S (L: Views, M: File organization and indexes, N: Relations).",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "I-L, II-M, III-N",
+                        "B":  "I-M, II-L, III-N",
+                        "C":  "I-N, II-M, III-L",
+                        "D":  "I-N, II-L, III-M"
+                    },
+        "correctAnswer":  "C"
+    },
+    {
+        "id":  "S2T16",
+        "questionNumber":  16,
+        "section":  "CD",
+        "text":  "Which one of the following options is NOT a property of Boolean Algebra? (+ is OR, . is AND, ′ is NOT)",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "a + b = b + a",
+                        "B":  "a . a\u0027 = 1",
+                        "C":  "a + a\u0027 = 1",
+                        "D":  "a . b = b . a"
+                    },
+        "correctAnswer":  "B"
+    },
+    {
+        "id":  "S2T17",
+        "questionNumber":  17,
+        "section":  "CD",
+        "text":  "In C runtime environment, which one of the following is stored in heap?",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "A static variable declared inside a function",
+                        "B":  "An array of integers declared inside a function",
+                        "C":  "A dynamically allocated array of integers created using malloc()",
+                        "D":  "Return address of a function"
+                    },
+        "correctAnswer":  "C"
+    },
+    {
+        "id":  "S2T18",
+        "questionNumber":  18,
+        "section":  "CD",
+        "text":  "S1: In non-vectored interrupt mechanism, it usually takes more time to start the ISR compared to vectored interrupt. S2: In daisy-chain interrupt mechanism, the CPU polls all input devices individually to determine the interrupt source. Which is correct?",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "Both S1 and S2 are true",
+                        "B":  "Both S1 and S2 are false",
+                        "C":  "S1 is true and S2 is false",
+                        "D":  "S1 is false and S2 is true"
+                    },
+        "correctAnswer":  "C"
+    },
+    {
+        "id":  "S2T19",
+        "questionNumber":  19,
+        "section":  "CD",
+        "text":  "Consider three ANSI-C programs P1, P2, P3. P1: int a=5; int main(){ int a=7; } P2: int main(){ int a=5; int a=7; } P3: int main(){ int a=5; float a=7; } Which statement is true?",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "Only P1 will compile without any error",
+                        "B":  "Only P2 will compile without any error",
+                        "C":  "Only P3 will compile without any error",
+                        "D":  "All three will compile without any error"
+                    },
+        "correctAnswer":  "A"
+    },
+    {
+        "id":  "S2T20",
+        "questionNumber":  20,
+        "section":  "DBMS",
+        "text":  "Consider concurrent execution of two transactions T1 and T2 accessing data object A. For them to NOT conflict on A, which must be true?",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "Both T1 and T2 only read A",
+                        "B":  "T1 reads A and T2 writes A",
+                        "C":  "T1 writes A and T2 reads A",
+                        "D":  "Both T1 and T2 write A"
+                    },
+        "correctAnswer":  "A"
+    },
+    {
+        "id":  "S2T21",
+        "questionNumber":  21,
+        "section":  "CN",
+        "text":  "A file of 4 million bytes transferred between two hosts via three consecutive links of bandwidth 2 Mbps, 500 kbps, and 1 Mbps. All processing and propagation delays negligible. No background traffic. Total time (in seconds) to transfer the file? (1M=10⁶, 1k=10³)",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "731",
+                        "B":  "64",
+                        "C":  "8",
+                        "D":  "16"
+                    },
+        "correctAnswer":  "B"
+    },
+    {
+        "id":  "S2T22",
+        "questionNumber":  22,
+        "section":  "CN",
+        "text":  "Which one of the following protocols may need to broadcast some of its messages?",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "SMTP",
+                        "B":  "FTP",
+                        "C":  "DHCP",
+                        "D":  "HTTP"
+                    },
+        "correctAnswer":  "C"
+    },
+    {
+        "id":  "S2T23",
+        "questionNumber":  23,
+        "section":  "OS",
+        "text":  "Which one of the following CPU scheduling algorithms CANNOT be preemptive?",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "Shortest Remaining Time First (SRTF)",
+                        "B":  "First Come First Serve (FCFS)",
+                        "C":  "Round Robin",
+                        "D":  "Priority Scheduling"
+                    },
+        "correctAnswer":  "B"
+    },
+    {
+        "id":  "S2T24",
+        "questionNumber":  24,
+        "section":  "ALGO",
+        "text":  "Consider functions (n positive integer): n^(1/3), log(n), log(n!), 2^(log(n)). Which lists them in increasing order of asymptotic growth? (base 2 log)",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "log(n), n^(1/3), 2^(log(n)), log(n!)",
+                        "B":  "n^(1/3), log(n), log(n!), 2^(log(n))",
+                        "C":  "log(n), n^(1/3), log(n!), 2^(log(n))",
+                        "D":  "2^(log(n)), n^(1/3), log(n), log(n!)"
+                    },
+        "correctAnswer":  "A"
+    },
+    {
+        "id":  "S2T25",
+        "questionNumber":  25,
+        "section":  "ALGO",
+        "text":  "Which can be recurrence relation(s) corresponding to an algorithm with time complexity Θ(n)?",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "T(n) = T(n-1) + 1, T(1)=1",
+                        "B":  "T(n) = 2T(n/2) + 1, T(1)=1",
+                        "C":  "T(n) = 2T(n/2) + n, T(1)=1",
+                        "D":  "T(n) = T(n-1) + n, T(1)=1"
+                    },
+        "correctAnswer":  "A"
+    },
+    {
+        "id":  "S2T26",
+        "questionNumber":  26,
+        "section":  "EM",
+        "text":  "Let R be a binary relation on {1,2,...,10} where (x,y)∈R if the product of x and y is a perfect square. Which properties are satisfied by R?",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "Reflexive",
+                        "B":  "Symmetric",
+                        "C":  "Transitive",
+                        "D":  "Antisymmetric"
+                    },
+        "correctAnswer":  "B"
+    },
+    {
+        "id":  "S2T27",
+        "questionNumber":  27,
+        "section":  "EM",
+        "text":  "For real a, let I(a) = ∫_{-1}^{1} (3x² - ax + 1) dx. Which statement(s) is/are true?",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "The value of I(a) is independent of a",
+                        "B":  "The value of I(a) can vary with a",
+                        "C":  "There exists a such that I(a) is positive",
+                        "D":  "There exists a such that I(a) is negative"
+                    },
+        "correctAnswer":  "A"
+    },
+    {
+        "id":  "S2T28",
+        "questionNumber":  28,
+        "section":  "CD",
+        "text":  "Numbers represented using 4-bit two\u0027s complement. N1=1011, N2=1101, N3=1010, N4=1001. Which operation(s) result in arithmetic overflow?",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "N1 + N2",
+                        "B":  "N2 + N3",
+                        "C":  "N3 - N4",
+                        "D":  "N1 + N4"
+                    },
+        "correctAnswer":  "A"
+    },
+    {
+        "id":  "S2T29",
+        "questionNumber":  29,
+        "section":  "TOC",
+        "text":  "Which of the following grammars is/are ambiguous?",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "S → aSb | ε",
+                        "B":  "E → E+E | E*E | id",
+                        "C":  "S → aS | Sa | ε",
+                        "D":  "S → aS | ε"
+                    },
+        "correctAnswer":  "B"
+    },
+    {
+        "id":  "S2T30",
+        "questionNumber":  30,
+        "section":  "DSA",
+        "text":  "Keys 5, 28, 19, 15, 26, 33, 12, 17, 10 inserted into hash table using h(k)=k mod 9. Collisions resolved by chaining. The length of the longest chain is ______. (answer in integer)",
+        "type":  "Integer",
+        "options":  {
+
+                    },
+        "correctAnswer":  "3"
+    },
+    {
+        "id":  "S2T31",
+        "questionNumber":  31,
+        "section":  "EM",
+        "text":  "System of linear equations: ax + y = b, 16x + ay = 24. If a and b are chosen such that the system has multiple solutions, then the product a×b is ______. (answer in integer)",
+        "type":  "Integer",
+        "options":  {
+
+                    },
+        "correctAnswer":  "96"
+    },
+    {
+        "id":  "S2T32",
+        "questionNumber":  32,
+        "section":  "DSA",
+        "text":  "Array A = [10,7,8,19,41,35,25,31]. Merge sort to sort in increasing order. A merge operation on sorted L and R is \u0027void\u0027 if output is L followed by R. Number of void merge operations among 7 total merges is ______. (answer in integer)",
+        "type":  "Integer",
+        "options":  {
+
+                    },
+        "correctAnswer":  "2"
+    },
+    {
+        "id":  "S2T33",
+        "questionNumber":  33,
+        "section":  "CN",
+        "text":  "If an IP network uses a subnet mask of 255.255.240.0, the maximum number of IP addresses that can be assigned to network interfaces is ______. (answer in integer)",
+        "type":  "Integer",
+        "options":  {
+
+                    },
+        "correctAnswer":  "4094"
+    },
+    {
+        "id":  "S2T34",
+        "questionNumber":  34,
+        "section":  "CD",
+        "text":  "The 32-bit IEEE 754 single precision representation of a number is 0xC2710000. The number in decimal is ______. (rounded off to two decimal places)",
+        "type":  "Integer",
+        "options":  {
+
+                    },
+        "correctAnswer":  "-15.00"
+    },
+    {
+        "id":  "S2T35",
+        "questionNumber":  35,
+        "section":  "CD",
+        "text":  "A lexical analyzer uses token definitions: letter→[A-Za-z], digit→[0-9], id→letter(letter|digit)*, number→digit+, ws→(blank|tab|newline)+. For the string \u0027x1 23 mm 78 y7 z zz 5 14 A8 H AaYcD\u0027, the number of tokens (excluding ws) is ______. (answer in integer)",
+        "type":  "Integer",
+        "options":  {
+
+                    },
+        "correctAnswer":  "15"
+    },
+    {
+        "id":  "S2T36",
+        "questionNumber":  36,
+        "section":  "ALGO",
+        "text":  "Consider complete graph K_n (n\u003e4). Multiple spanning trees can be constructed. Jaccard coefficient between any two sets = |intersection|/|union|. The lowest possible Jaccard coefficient between any two spanning trees of K_n is?",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "1/n",
+                        "B":  "1/(2n-3)",
+                        "C":  "0",
+                        "D":  "1/(n-1)"
+                    },
+        "correctAnswer":  "B"
+    },
+    {
+        "id":  "S2T37",
+        "questionNumber":  37,
+        "section":  "ALGO",
+        "text":  "Let G be a weighted DAG with m edges and n vertices. Given G and source s, worst-case time complexity of the fastest algorithm to find shortest paths from s to all reachable vertices?",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "Θ(m+n)",
+                        "B":  "Θ(m+n log n)",
+                        "C":  "Θ(nm)",
+                        "D":  "Θ(n³)"
+                    },
+        "correctAnswer":  "A"
+    },
+    {
+        "id":  "S2T38",
+        "questionNumber":  38,
+        "section":  "ALGO",
+        "text":  "Array A of size n indices 1..n. Check: ∀i\u003ej, (A[i+1]-A[i]) \u003e (A[j+1]-A[j]). Worst-case time complexity of fastest algorithm?",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "Θ(n)",
+                        "B":  "Θ(log n)",
+                        "C":  "Θ(n log n)",
+                        "D":  "Θ(n²)"
+                    },
+        "correctAnswer":  "A"
+    },
+    {
+        "id":  "S2T39",
+        "questionNumber":  39,
+        "section":  "ALGO",
+        "text":  "Dynamic programming table T[i][j] for 0≤i,j≤n. T[0][k]=T[k][0]=1. T[i][j]=2T[i-1][j]+3T[i][j-1]. Two algorithms given. Which statement is true?",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "Both algorithms B1 and B2 are correct",
+                        "B":  "B1 is correct, but B2 is incorrect",
+                        "C":  "B2 is correct, but B1 is incorrect",
+                        "D":  "Both B1 and B2 are incorrect"
+                    },
+        "correctAnswer":  "B"
+    },
+    {
+        "id":  "S2T40",
+        "questionNumber":  40,
+        "section":  "CD",
+        "text":  "4-variable Boolean function F(A,B,C,D)=Σm(0,1,2,3,8,9,10,11) with A=MSB, D=LSB. Minimal sum of products form? (+ is OR, . is AND, ′ is NOT)",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "A\u0027 + B\u0027 + C\u0027 + D\u0027",
+                        "B":  "B\u0027",
+                        "C":  "A\u0027.B\u0027 + A.B",
+                        "D":  "A\u0027"
+                    },
+        "correctAnswer":  "B"
+    },
+    {
+        "id":  "S2T42",
+        "questionNumber":  42,
+        "section":  "DBMS",
+        "text":  "Armstrong\u0027s Axioms: Reflexivity (if Y⊆X then X→Y), Augmentation (if X→Y then XZ→YZ), Transitivity (if X→Y and Y→Z then X→Z). To prove Union (if X→Y and X→Z then X→YZ), which combination of the three rules is both necessary and sufficient?",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "Reflexivity, Augmentation, and Transitivity",
+                        "B":  "Reflexivity and Augmentation",
+                        "C":  "Transitivity",
+                        "D":  "Augmentation and Transitivity"
+                    },
+        "correctAnswer":  "A"
+    },
+    {
+        "id":  "S2T43",
+        "questionNumber":  43,
+        "section":  "CN",
+        "text":  "Transmission of data bits 110001011 over a link using CRC. Generator bit pattern is 1001. The remainder bit pattern appended is?",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "011",
+                        "B":  "101",
+                        "C":  "000",
+                        "D":  "100"
+                    },
+        "correctAnswer":  "A"
+    },
+    {
+        "id":  "S2T44",
+        "questionNumber":  44,
+        "section":  "CD",
+        "text":  "Processor with 16 GP registers, 2-byte instruction format. Variable-sized opcodes. M-type: 2 regs + 6-bit immediate. R-type: 3 regs. C-type: 1 reg + 6-bit offset. If 2 unique M-type and 7 unique R-type opcodes, maximum unique opcodes for C-type?",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "8",
+                        "B":  "4",
+                        "C":  "64",
+                        "D":  "16"
+                    },
+        "correctAnswer":  "A"
+    },
+    {
+        "id":  "S2T46",
+        "questionNumber":  46,
+        "section":  "DBMS",
+        "text":  "S1: A hash index must be a dense index. S2: A B+ tree index can be a sparse index. Which is correct?",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "Both S1 and S2 are true",
+                        "B":  "Both S1 and S2 are false",
+                        "C":  "S1 is true and S2 is false",
+                        "D":  "S1 is false and S2 is true"
+                    },
+        "correctAnswer":  "D"
+    },
+    {
+        "id":  "S2T48",
+        "questionNumber":  48,
+        "section":  "TOC",
+        "text":  "Let Σ={a,b,c,d} and L={aⁱbʲcᵏdˡ | i,j,k,l≥0}. Which constraint ensures L is context-free?",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "i + k = j + l",
+                        "B":  "i = k and j = l",
+                        "C":  "i = l and j = k",
+                        "D":  "i + j = k + l"
+                    },
+        "correctAnswer":  "B"
+    },
+    {
+        "id":  "S2T50",
+        "questionNumber":  50,
+        "section":  "DSA",
+        "text":  "Stack S and queue Q, initially empty. Elements 1,2,3,4,5 arrive in order, each assigned to S (push) or Q (enqueue). First empty S (pop all), then empty Q (dequeue all). Output is 4,3,1,2,5. Which assignment(s) are valid? (xS = assigned to stack, xQ = assigned to queue)",
+        "type":  "Multiple Choice",
+        "options":  {
+                        "A":  "1S, 2Q, 3S, 4S, 5Q",
+                        "B":  "1Q, 2Q, 3S, 4S, 5Q",
+                        "C":  "1Q, 2Q, 3Q, 4S, 5S",
+                        "D":  "1S, 2S, 3S, 4Q, 5Q"
+                    },
+        "correctAnswer":  "B"
+    },
+    {
+        "id":  "S2T53",
+        "questionNumber":  53,
+        "section":  "OS",
+        "text":  "Disk size 16 GB, block size 2 KB, block numbers are 32-bit. Linked list approach to keep track of free blocks. Each block uses 4 bytes pointer to next block. Number of blocks required to hold the free disk block numbers is ______. (answer in integer, 1K=2¹⁰, 1G=2³⁰)",
+        "type":  "Integer",
+        "options":  {
+
+                    },
+        "correctAnswer":  "65536"
+    },
+    {
+        "id":  "S2T55",
+        "questionNumber":  55,
+        "section":  "OS",
+        "text":  "Contiguous allocation with variable partitioning. 8 holes: 20,4,25,18,7,9,15,12 KB. No adjacent holes. P1 (16 KB) and P2 (9 KB) arrive in order, allocated using best-fit. After allocation, number of holes of size less than 8 KB is ______. (answer in integer)",
+        "type":  "Integer",
+        "options":  {
+
+                    },
+        "correctAnswer":  "3"
+    },
+    {
+        "id":  "S2T57",
+        "questionNumber":  57,
+        "section":  "CD",
+        "text":  "Non-pipelined unit at 1.6 GHz takes 5 cycles/instruction. Pipelined at 1.2 GHz with goal of 1 IPC. 30% of instructions encounter 2-cycle stall. Speed-up of pipelined over non-pipelined is ______. (rounded off to two decimal places, 1G=10⁹)",
+        "type":  "Integer",
+        "options":  {
+
+                    },
+        "correctAnswer":  "2.58"
+    },
+    {
+        "id":  "S2T58",
+        "questionNumber":  58,
+        "section":  "CN",
+        "text":  "New TCP connection. Receiver advertised window = 48 KB, MSS = 2 KB, slow start threshold = 16 KB. No timeouts or duplicate ACKs. Number of rounds of transmission to reach congestion avoidance phase is ______. (answer in integer, 1K=2¹⁰)",
+        "type":  "Integer",
+        "options":  {
+
+                    },
+        "correctAnswer":  "4"
+    },
+    {
+        "id":  "S2T60",
+        "questionNumber":  60,
+        "section":  "CD",
+        "text":  "Consider ANSI-C program: int *ptr, a, b, c; a=5; b=11; c=20; ptr=\u0026a; *ptr=c; ptr=\u0026c; a=*(\u0026b); c=*ptr - a; printf(\"%d\",c); Output is ______. (answer in integer)",
+        "type":  "Integer",
+        "options":  {
+
+                    },
+        "correctAnswer":  "9"
+    },
+    {
+        "id":  "S2T62",
+        "questionNumber":  62,
+        "section":  "EM",
+        "text":  "The determinant of a 4×4 matrix A is 3. The value of the determinant of 2A is ______. (answer in integer)",
+        "type":  "Integer",
+        "options":  {
+
+                    },
+        "correctAnswer":  "48"
+    },
+    {
+        "id":  "S2T63",
+        "questionNumber":  63,
+        "section":  "EM",
+        "text":  "An unbiased coin is tossed 6 times. E1: among 2nd, 4th, 6th tosses, at least two heads. E2: among 1st, 2nd, 3rd, 5th tosses, equal heads and tails. P(E1|E2) = ______. (rounded off to one decimal place)",
+        "type":  "Integer",
+        "options":  {
+
+                    },
+        "correctAnswer":  "0.5"
+    },
+    {
+        "id":  "S2T65",
+        "questionNumber":  65,
+        "section":  "CN",
+        "text":  "Link-layer protocol between two hosts directly connected over lossless link of length 3000 km. Bandwidth = 10⁸ bps, propagation delay = 5 ns/m. Every data byte has unique sequence number. Minimum bits N for sequence number such that (i) no wrap-around before 60s, (ii) maximum utilization achieved. N = ______. (answer in integer)",
+        "type":  "Integer",
+        "options":  {
+
+                    },
+        "correctAnswer":  "30"
+    }
+]

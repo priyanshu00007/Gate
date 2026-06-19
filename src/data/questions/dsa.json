@@ -1,0 +1,63 @@
+[
+  {
+    "id": "DSA23",
+    "questionNumber": 1,
+    "text": "Let n be an odd number greater than 100. Consider a binary minheap with n elements stored in an array P whose index starts from 1. Which of the following indices of P does NOT correspond to any leaf node of the minheap?",
+    "type": "Multiple Choice",
+    "options": { "A": "(n+1)/2", "B": "(n-1)/2", "C": "(n-3)/2", "D": "n" },
+    "correctAnswer": "B"
+  },
+  {
+    "id": "DSA24",
+    "questionNumber": 2,
+    "text": "Consider a hash table P[0..10] initially empty, using open addressing with linear probing. Hash function h(x) = (x+7) mod 11. Insert: 1, 13, 22, 15, 11, 24. Which positions are empty after these insertions?",
+    "type": "Multiple Choice",
+    "options": { "A": "0", "B": "10", "C": "2", "D": "1" },
+    "correctAnswer": "C"
+  },
+  {
+    "id": "DSA33",
+    "questionNumber": 3,
+    "text": "The height of a binary tree is the number of edges in the longest path from root to leaf. The maximum possible height of a full binary tree with 23 nodes is ______. (answer in integer)",
+    "type": "Integer",
+    "options": {},
+    "correctAnswer": "11"
+  },
+  {
+    "id": "DSA39",
+    "questionNumber": 4,
+    "text": "Consider the C code that computes number of nodes in a non-empty singly linked list: int getListSize(struct node *head) { if(E1) return 1; return E2; } Which replacements for E1 and E2 are correct?",
+    "type": "Multiple Choice",
+    "options": {
+      "A": "E1: head==NULL, E2: 1+getListSize(head)",
+      "B": "E1: head->next==NULL, E2: 1+getListSize(head->next)",
+      "C": "E1: head==NULL, E2: 1+getListSize(head->next)",
+      "D": "E1: head->next==NULL, E2: 1+getListSize(head)"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "id": "DSA40",
+    "questionNumber": 5,
+    "text": "Let P be the set of integers 1 to 15. Consider any order of insertion of elements of P into a BST that creates a complete binary tree. Which element can NEVER be the third element inserted?",
+    "type": "Multiple Choice",
+    "options": { "A": "4", "B": "2", "C": "10", "D": "5" },
+    "correctAnswer": "D"
+  },
+  {
+    "id": "DSA57",
+    "questionNumber": 6,
+    "text": "Let G be an undirected graph which is a path on 8 vertices. The number of matchings in G is ______. (answer in integer)",
+    "type": "Integer",
+    "options": {},
+    "correctAnswer": "34"
+  },
+  {
+    "id": "DSA62",
+    "questionNumber": 7,
+    "text": "The following sequence is the preorder traversal of a BST T: 50, 25, 13, 40, 30, 47, 75, 60, 70, 80, 77. The position of element 60 in the postorder traversal of T is ______. (answer in integer, position begins with 1)",
+    "type": "Integer",
+    "options": {},
+    "correctAnswer": "7"
+  }
+]

@@ -1,0 +1,109 @@
+{
+  "gate-2027": {
+    "title": "GATE 2027 (5-MONTH SPRINT)",
+    "startDate": "JUNE 2026",
+    "endDate": "NOV 2026",
+    "levels": [
+      {
+        "level": "1",
+        "name": "FOUNDATION SUBJECTS",
+        "subtitle": "No Prerequisites Required",
+        "subjects": [
+          { "name": "General Aptitude", "time": "2:01" },
+          { "name": "Engineering Mathematics", "time": "2:07" },
+          { "name": "Discrete Mathematics", "time": "2:42" },
+          { "name": "C Programming", "time": "3:09" },
+          { "name": "Digital Logic", "time": "3:34" }
+        ]
+      },
+      {
+        "level": "2",
+        "name": "CORE SUBJECTS",
+        "subtitle": "Requires Level 1 Foundation",
+        "subjects": [
+          { "name": "Data Structures", "time": "4:51", "requires": "C Programming" },
+          { "name": "Algorithms (DSA)", "time": "5:22", "requires": "C Programming, Data Structures, Discrete Maths" },
+          { "name": "Theory of Computation (TOC)", "time": "6:13" },
+          { "name": "Computer Organization & Architecture (COA)", "time": "6:31", "requires": "Digital Logic" }
+        ]
+      },
+      {
+        "level": "3",
+        "name": "ADVANCED SUBJECTS",
+        "subtitle": "Best Understood After Level 2",
+        "subjects": [
+          { "name": "Operating Systems", "time": "7:22", "requires": "COA" },
+          { "name": "DBMS", "time": "8:11", "requires": "COA" },
+          { "name": "Compiler Design", "time": "8:35", "requires": "TOC" },
+          { "name": "Computer Networks", "time": "8:43", "requires": "Digital Logic, COA, OS" }
+        ]
+      }
+    ],
+    "timeline": [
+      { "month": "JUNE", "focus": "LEVEL 1 FOUNDATION", "subjects": ["General Aptitude", "Engineering Mathematics", "Discrete Mathematics", "C Programming", "Digital Logic"] },
+      { "month": "JULY", "focus": "LEVEL 2 CORE START", "subjects": ["Data Structures", "Algorithms (DSA)", "COA"] },
+      { "month": "AUG", "focus": "LEVEL 2 CORE END + LEVEL 3 START", "subjects": ["TOC", "Compiler Design", "Operating Systems"] },
+      { "month": "SEP", "focus": "LEVEL 3 COMPLETION", "subjects": ["DBMS", "Computer Networks"] },
+      { "month": "OCT", "focus": "PYQ MARATHON & TOPIC REVISION", "subjects": ["Subject-wise PYQs (2007-2026)"] },
+      { "month": "NOV", "focus": "FULL-LENGTH MOCKS & FINAL POLISH", "subjects": ["10+ Mock Tests", "Formula Revision", "Exam Simulation"] }
+    ]
+  },
+  "gate-2028": {
+    "title": "GATE 2028 (18-MONTH COMPREHENSIVE)",
+    "startDate": "JUNE 2026",
+    "endDate": "NOV 2027",
+    "levels": [
+      {
+        "level": "1",
+        "name": "FOUNDATION SUBJECTS",
+        "subtitle": "No Prerequisites Required",
+        "subjects": [
+          { "name": "General Aptitude", "time": "2:01" },
+          { "name": "Engineering Mathematics", "time": "2:07" },
+          { "name": "Discrete Mathematics", "time": "2:42" },
+          { "name": "C Programming", "time": "3:09" },
+          { "name": "Digital Logic", "time": "3:34" }
+        ]
+      },
+      {
+        "level": "2",
+        "name": "CORE SUBJECTS",
+        "subtitle": "Requires Level 1 Foundation",
+        "subjects": [
+          { "name": "Data Structures", "time": "4:51", "requires": "C Programming" },
+          { "name": "Algorithms (DSA)", "time": "5:22", "requires": "C Programming, Data Structures, Discrete Maths" },
+          { "name": "Theory of Computation (TOC)", "time": "6:13" },
+          { "name": "Computer Organization & Architecture (COA)", "time": "6:31", "requires": "Digital Logic" }
+        ]
+      },
+      {
+        "level": "3",
+        "name": "ADVANCED SUBJECTS",
+        "subtitle": "Best Understood After Level 2",
+        "subjects": [
+          { "name": "Operating Systems", "time": "7:22", "requires": "COA" },
+          { "name": "DBMS", "time": "8:11", "requires": "COA" },
+          { "name": "Compiler Design", "time": "8:35", "requires": "TOC" },
+          { "name": "Computer Networks", "time": "8:43", "requires": "Digital Logic, COA, OS" }
+        ]
+      },
+      {
+        "level": "4",
+        "name": "MASTERY & DEEP DIVE",
+        "subtitle": "Advanced Problem-Solving & Research-Oriented Prep",
+        "subjects": [
+          { "name": "Competitive Programming", "time": "Parallel" },
+          { "name": "GATE PYQ OCEAN (2007-2027)", "time": "Ongoing" },
+          { "name": "Advanced Graph Theory", "time": "Extended" },
+          { "name": "Parallel & Distributed Systems", "time": "Extended" }
+        ]
+      }
+    ],
+    "timeline": [
+      { "month": "JUN-DEC 2026", "focus": "LEVEL 1 + LEVEL 2", "subjects": ["All Foundation + Core Subjects", "Weekly PYQ Integration"] },
+      { "month": "JAN-MAR 2027", "focus": "LEVEL 3 ADVANCED", "subjects": ["OS, DBMS, Compiler Design, CN", "Topic-wise PYQ deep dives"] },
+      { "month": "APR-AUG 2027", "focus": "LEVEL 4 MASTERY + REVISION CYCLES", "subjects": ["Competitive Programming", "Full Subject Revision", "Advanced Topics"] },
+      { "month": "SEP-NOV 2027", "focus": "MOCK DRILL & INTENSIVE PRACTICE", "subjects": ["20+ Full-Length Mocks", "10-Year PYQ Marathon", "Weak Spot Elimination"] }
+    ]
+  }
+}

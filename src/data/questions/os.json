@@ -1,0 +1,68 @@
+[
+  {
+    "id": "OS29",
+    "questionNumber": 1,
+    "text": "With respect to deadlocks in an OS, which statement(s) is/are FALSE?",
+    "type": "Multiple Choice",
+    "options": {
+      "A": "Banker's algorithm is used to prevent deadlocks",
+      "B": "Deadlock can be prevented by ensuring hold and wait is not allowed",
+      "C": "An assignment edge in a resource allocation graph is from a process to a resource",
+      "D": "A safe state guarantees all processes can finish without deadlock"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "id": "OS35",
+    "questionNumber": 2,
+    "text": "Consider a system with k instances of resource R shared by 5 processes. Each process requires a maximum of two instances and can request/release one at a time. A process can request the second instance only after acquiring the first. The minimum k for the system to be deadlock-free is ______. (answer in integer)",
+    "type": "Integer",
+    "options": {},
+    "correctAnswer": "6"
+  },
+  {
+    "id": "OS54",
+    "questionNumber": 3,
+    "text": "Consider a system with cache and MMU with TLB. When a page is evicted from main memory, cache blocks are marked invalid. For a given memory reference, which sequence can NEVER happen?",
+    "type": "Multiple Choice",
+    "options": {
+      "A": "TLB miss, Page table hit, Cache hit",
+      "B": "TLB hit, Page table miss, Cache hit",
+      "C": "TLB miss, Page table miss, Cache hit",
+      "D": "TLB miss, Page table miss, Cache miss"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "id": "OS59",
+    "questionNumber": 4,
+    "text": "Hard disk: rotational speed 15000 rpm. Time to move head to adjacent track = 1 ms. Head starts on track 0. 400 sectors/track, sector size 1024 bytes. Transfer data from 10 randomly located sectors in tracks 5, 12 and 7 (in that order). Total time for data transfer in ms is ______. (rounded off to one decimal place)",
+    "type": "Integer",
+    "options": {},
+    "correctAnswer": "12.5"
+  },
+  {
+    "id": "OS60",
+    "questionNumber": 5,
+    "text": "A pipelined processor's EX stage performs memory reads for LOAD and operations for ALU instructions. Pipeline clock is 1 ns. Given instruction mix with varying t_EX values, the number of clock cycles the pipeline is stalled due to structural hazards in the EX stage is ______. (answer in integer)",
+    "type": "Integer",
+    "options": {},
+    "correctAnswer": "10"
+  },
+  {
+    "id": "OS63",
+    "questionNumber": 6,
+    "text": "Consider: for(i=0; i<3; i++){ if(fork()==0){ continue; } break; } printf(\"Hello!\"); The total number of times the printf statement gets executed is ______. (answer in integer)",
+    "type": "Integer",
+    "options": {},
+    "correctAnswer": "4"
+  },
+  {
+    "id": "OS64",
+    "questionNumber": 7,
+    "text": "CPU executes two process types: Actuators (A) need 6s CPU burst, Controllers (C) need 8s. New A arrives at t=10,20,30,40,50. New C arrives at t=11,22,33,44,55. FCFS scheduling. First A starts at t=10. Average waiting time for 10 processes in seconds is ______. (rounded off to one decimal place)",
+    "type": "Integer",
+    "options": {},
+    "correctAnswer": "14.8"
+  }
+]

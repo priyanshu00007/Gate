@@ -1,0 +1,86 @@
+[
+  {
+    "id": "CD14",
+    "questionNumber": 1,
+    "text": "Match each addressing mode (P: Immediate, Q: Indirect, R: Base with index, S: Base with offset/displacement) with its data element (1: Array element, 2: Pointer, 3: Record element, 4: Constant).",
+    "type": "Multiple Choice",
+    "options": {
+      "A": "P-4, Q-3, R-1, S-2",
+      "B": "P-4, Q-2, R-1, S-3",
+      "C": "P-1, Q-4, R-3, S-2",
+      "D": "P-2, Q-3, R-1, S-4"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "id": "CD15",
+    "questionNumber": 2,
+    "text": "Consider a processor with load-store architecture. First operand is always destination. Which sequence corresponds to Z = X + Y? (X,Y,Z memory, R0,R1,R2 registers)",
+    "type": "Multiple Choice",
+    "options": {
+      "A": "ADD Z, X, Y",
+      "B": "LOAD R0, X; ADD Z, R0, Y",
+      "C": "ADD R0, X, Y; STORE Z, R0",
+      "D": "LOAD R0, X; LOAD R1, Y; ADD R2, R0, R1; STORE Z, R2"
+    },
+    "correctAnswer": "D"
+  },
+  {
+    "id": "CD16",
+    "questionNumber": 3,
+    "text": "Which dependency among register operands of different instructions can cause a data hazard in a pipelined processor?",
+    "type": "Multiple Choice",
+    "options": { "A": "Read-after-read", "B": "Read-after-write", "C": "Write-after-read", "D": "Write-after-write" },
+    "correctAnswer": "B"
+  },
+  {
+    "id": "CD21",
+    "questionNumber": 4,
+    "text": "Consider Boolean expression F(P,Q) = (P̅+Q) ⊕ (P̅Q). Which is equivalent to F?",
+    "type": "Multiple Choice",
+    "options": { "A": "P⊕Q", "B": "P̅⊕Q", "C": "P̅⊕Q̅", "D": "P⊕Q̅" },
+    "correctAnswer": "C"
+  },
+  {
+    "id": "CD22",
+    "questionNumber": 5,
+    "text": "Consider 8-bit signed integers X and Y in sign-magnitude form. X: 1 0110100, Y: 01001100. Which operation(s) to compute Z result in arithmetic overflow?",
+    "type": "Multiple Choice",
+    "options": { "A": "Z = X + Y", "B": "Z = X - Y", "C": "Z = -X + Y", "D": "Z = -X - Y" },
+    "correctAnswer": "A"
+  },
+  {
+    "id": "CD27",
+    "questionNumber": 6,
+    "text": "Consider C statements: char *str1 = \"Hello; (S1); char *str2 = \"Hello\"; (S2); int *str3 = \"Hello\"; (S3). Which is/are correct?",
+    "type": "Multiple Choice",
+    "options": {
+      "A": "S1 and S2 have syntactic errors",
+      "B": "S2 has a lexical error and S3 has a syntactic error",
+      "C": "S1 has a lexical error and S3 has a semantic error",
+      "D": "S1 has a syntactic error and S3 has a semantic error"
+    },
+    "correctAnswer": "D"
+  },
+  {
+    "id": "CD28",
+    "questionNumber": 7,
+    "text": "Which statement(s) about LL(1) parsers is/are true?",
+    "type": "Multiple Choice",
+    "options": {
+      "A": "LL(1) parser uses backtracking",
+      "B": "For a grammar to be LL(1), it must be left-recursive",
+      "C": "For a grammar to be LL(1), it must be left-factored",
+      "D": "LL(1) parsers are more powerful than SLR parsers"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "id": "CD61",
+    "questionNumber": 8,
+    "text": "Consider: int bar(int n){ if(n==1) return 0; else return 1+bar(n/2); } int foo(int n){ if(n==1) return 1; else return 1+foo(bar(n)); } The smallest positive integer n for which foo(n) returns 5 is ______. (answer in integer)",
+    "type": "Integer",
+    "options": {},
+    "correctAnswer": "32"
+  }
+]

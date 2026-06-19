@@ -1,0 +1,10 @@
+[
+  { "id": "home", "label": "HOME" },
+  { "id": "learn", "label": "LEARN HUB" },
+  { "id": "pyqs", "label": "PYQS" },
+  { "id": "roadmap", "label": "ROADMAP" },
+  { "id": "resources", "label": "RESOURCES" },
+  { "id": "lab", "label": "STUDY LAB" },
+  { "id": "quicktest", "label": "QUICK TEST" },
+  { "id": "community", "label": "COMMUNITY" }
+]

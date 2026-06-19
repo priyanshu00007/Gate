@@ -1,0 +1,68 @@
+[
+  {
+    "id": "GA1",
+    "questionNumber": 1,
+    "text": "The antonym of the word protagonist is ________.",
+    "type": "Multiple Choice",
+    "options": { "A": "agnostic", "B": "antagonist", "C": "arsonist", "D": "anarchist" },
+    "correctAnswer": "B"
+  },
+  {
+    "id": "GA3",
+    "questionNumber": 2,
+    "text": "Consider a knock-out women's badminton singles tournament where there are no ties. The loser in each game is eliminated from the tournament. Every player plays until she is defeated or remains the last undefeated player. If there are 64 players, how many games should be played to declare the winner?",
+    "type": "Multiple Choice",
+    "options": { "A": "127", "B": "64", "C": "63", "D": "32" },
+    "correctAnswer": "C"
+  },
+  {
+    "id": "GA4",
+    "questionNumber": 3,
+    "text": "A student needs to enroll for a minimum of 60 credits and cannot exceed 70 credits. Exactly 15 credits of core courses and exactly 20 credits of project are compulsory. Minimum 10 credits of specialization courses are required. The maximum credits of elective courses a student can enroll for is ______",
+    "type": "Multiple Choice",
+    "options": { "A": "10", "B": "15", "C": "20", "D": "25" },
+    "correctAnswer": "D"
+  },
+  {
+    "id": "GA5",
+    "questionNumber": 4,
+    "text": "'When the teacher is in the room, all students stand silently.' If the above statement is true, which one of the following statements is NOT necessarily true?",
+    "type": "Multiple Choice",
+    "options": {
+      "A": "If any student is not standing silently, then the teacher is not in the room.",
+      "B": "When the teacher is in the room, all students are silent.",
+      "C": "If all students are standing, then the teacher is in the room.",
+      "D": "When the teacher is in the room, all students are standing."
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "id": "GA6",
+    "questionNumber": 5,
+    "text": "Combinatorics deals with problems involving counting. Often, in such models, the different combinatorial possibilities are assigned probability values. Consider the following statements: P: Combinatorics is always invoked in the modeling of physical phenomena. Q: Modeling some physical phenomena involves assigning probabilities to combinatorial possibilities in order to compute average values of physical quantities. Based on the passage above, what can be inferred about statements P and Q?",
+    "type": "Multiple Choice",
+    "options": {
+      "A": "P is False and Q is False",
+      "B": "P is False and Q is True",
+      "C": "P is True and Q is False",
+      "D": "P is True and Q is True"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "id": "GA9",
+    "questionNumber": 6,
+    "text": "In the 2020 Summer Olympics Javelin throw finals, Neeraj Chopra won gold, Jakub Vadlejch silver, Vitezlav Vesely bronze. There were six rounds. Observations: i. Rounds 1 and 2 dominated by Neeraj. ii. Last round throws by Jakub and Vitezlav were fouls. iii. After four rounds, Vitezlav was in second position and could not improve his best throw in succeeding rounds. iv. In round 4, Jakub's throw was the best in that round. In which round did Vitezlav have his best throw?",
+    "type": "Multiple Choice",
+    "options": { "A": "Third", "B": "Fourth", "C": "Fifth", "D": "Sixth" },
+    "correctAnswer": "B"
+  },
+  {
+    "id": "GA10",
+    "questionNumber": 7,
+    "text": "An unbiased six-faced dice whose faces are marked 1 through 6 is rolled twice. The probability that the number appearing in the second roll is an integer multiple of the number appearing in the first roll is",
+    "type": "Multiple Choice",
+    "options": { "A": "1/6", "B": "5/18", "C": "7/18", "D": "5/6" },
+    "correctAnswer": "C"
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "id": "DBMS30",
+    "questionNumber": 1,
+    "text": "Let P,Q,R,S be attributes of a relation. Let X→Y indicate FD where X,Y⊆{P,Q,R,S}. Which is/are always true?",
+    "type": "Multiple Choice",
+    "options": {
+      "A": "If ({P,Q}→{R} and {P}→{R}) then {Q}→{R}",
+      "B": "If {P,Q}→{R} then ({P}→{R} or {Q}→{R})",
+      "C": "If ({P}→{R} and {Q}→{S}) then {P,Q}→{R,S}",
+      "D": "If {P}→{R} then {P,Q}→{R}"
+    },
+    "correctAnswer": "D"
+  },
+  {
+    "id": "DBMS31",
+    "questionNumber": 2,
+    "text": "In the context of relational database normalization, which statement(s) is/are true?",
+    "type": "Multiple Choice",
+    "options": {
+      "A": "It is always possible to obtain a dependency-preserving 3NF decomposition",
+      "B": "It is always possible to obtain a dependency-preserving 1NF decomposition",
+      "C": "It is not always possible to obtain a dependency-preserving BCNF decomposition",
+      "D": "It is not always possible to obtain a dependency-preserving 2NF decomposition"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "id": "DBMS43",
+    "questionNumber": 3,
+    "text": "Consider relations R(P,Q) and S(X,Y). Let E = {⟨u⟩ | ∃v∃w ⟨u,v⟩∈R ∧ ⟨v,w⟩∈S} be a tuple relational calculus expression. Which relational algebra expression is equivalent to E?",
+    "type": "Multiple Choice",
+    "options": {
+      "A": "Πₚ(R ⋈_{R.P=S.X} S)",
+      "B": "Πₚ(S ⋈_{S.X=R.Q} R)",
+      "C": "Πₚ(R ⋈_{R.P=S.Y} S)",
+      "D": "Πₚ(S ⋈_{S.Y=R.Q} R)"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "id": "DBMS65",
+    "questionNumber": 4,
+    "text": "Consider a relation R(A,B,C,D). If {A,B} and {A,C} are the only two candidate keys, then the number of superkeys of R is ______. (answer in integer)",
+    "type": "Integer",
+    "options": {},
+    "correctAnswer": "8"
+  }
+]

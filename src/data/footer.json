@@ -1,0 +1,23 @@
+{
+  "brand": "GATE it",
+  "tagline": "THE DIRECT-TO-RESULT INTERFACES FOR ACADEMIC DOMINANCE.",
+  "sections": [
+    {
+      "title": "INDEX SHELF",
+      "links": [
+        { "label": "PYQS", "page": "pyqs" },
+        { "label": "ROADMAPS", "page": "roadmap" },
+        { "label": "RESOURCES", "page": "resources" }
+      ]
+    },
+    {
+      "title": "SOCIAL NETWORK",
+      "links": [
+        { "label": "DISCORD SERVER", "page": null },
+        { "label": "TELEGRAM PROTOCOL", "page": null },
+        { "label": "GITHUB SOURCE", "page": null }
+      ]
+    }
+  ],
+  "copyright": "2026 GATE IT CORE ENGINE. NO PHYSICAL RIGHTS RESERVED. CODE LOGIC VERIFIED."
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ds",
+    "name": "DATA STRUCTURES",
+    "icon": "Code",
+    "targets": "WEEK 1-3",
+    "syllabus": ["Arrays & Lists", "Stacks & Queues", "Trees & Binary Search Trees", "Heaps & Hashing", "Graphs"]
+  },
+  {
+    "id": "algo",
+    "name": "ALGORITHMS",
+    "icon": "Brain",
+    "targets": "WEEK 4-6",
+    "syllabus": ["Asymptotic Complexity", "Divide & Conquer", "Greedy Methods", "Dynamic Programming", "Graph Algorithms"]
+  },
+  {
+    "id": "os",
+    "name": "OPERATING SYSTEMS",
+    "icon": "Monitor",
+    "targets": "WEEK 7-9",
+    "syllabus": ["System Calls", "Process & Threads", "CPU Scheduling", "Deadlocks", "Memory Management", "File Systems"]
+  },
+  {
+    "id": "dbms",
+    "name": "DBMS",
+    "icon": "Database",
+    "targets": "WEEK 10-11",
+    "syllabus": ["ER Diagrams", "Relational Model", "SQL Queries", "Functional Dependencies & Normalization", "Transactions & Concurrency Control"]
+  },
+  {
+    "id": "cn",
+    "name": "COMPUTER NETWORKS",
+    "icon": "Network",
+    "targets": "WEEK 12-14",
+    "syllabus": ["OSI & TCP/IP Stack", "Flow Control & Error Correction", "Routing & Congestion Control", "IP Addressing & Subnetting", "Application Protocols"]
+  },
+  {
+    "id": "toc",
+    "name": "THEORY OF COMPUTATION",
+    "icon": "Layers",
+    "targets": "WEEK 15-16",
+    "syllabus": ["Regular Languages & FA", "CFGs & PDAs", "REs & Turing Machines", "Undecidability"]
+  },
+  {
+    "id": "compiler",
+    "name": "COMPILER DESIGN",
+    "icon": "Terminal",
+    "targets": "WEEK 17",
+    "syllabus": ["Lexical Analysis", "Syntax Analysis & Parsing", "Syntax Directed Translation", "Intermediate Code Generation", "Code Optimization"]
+  },
+  {
+    "id": "aptitude",
+    "name": "GENERAL APTITUDE",
+    "icon": "Zap",
+    "targets": "ONGOING",
+    "syllabus": ["Quantitative Aptitude", "Analytical Reasoning", "Verbal Ability", "Spatial Aptitude"]
+  }
+]

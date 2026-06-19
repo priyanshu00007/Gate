@@ -1,0 +1,49 @@
+[
+  {
+    "id": "TOC25",
+    "questionNumber": 1,
+    "text": "Consider the grammar where S is start symbol, a and b are terminals: S → aSbS | bS | ε. Which statement(s) is/are true?",
+    "type": "Multiple Choice",
+    "options": {
+      "A": "The grammar is ambiguous",
+      "B": "The string abb has two distinct derivations",
+      "C": "The string abab has only one rightmost derivation",
+      "D": "The language generated is undecidable"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "id": "TOC26",
+    "questionNumber": 2,
+    "text": "Let M be an NFA with 6 states over a finite alphabet. Which CANNOT be the number of states in the minimal DFA equivalent to M?",
+    "type": "Multiple Choice",
+    "options": { "A": "32", "B": "65", "C": "1", "D": "128" },
+    "correctAnswer": "B"
+  },
+  {
+    "id": "TOC51",
+    "questionNumber": 3,
+    "text": "Let L₁ and L₂ be two languages over a finite alphabet such that L₁∩L₂ and L₂ are regular. Which statement(s) is/are always true?",
+    "type": "Multiple Choice",
+    "options": {
+      "A": "L₁ is regular",
+      "B": "L₁ ∪ L₂ is regular",
+      "C": "L₂ is context-free",
+      "D": "L₁ is context-free"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "id": "TOC52",
+    "questionNumber": 4,
+    "text": "Consider CFG G: S → abaABAb bba, A → aaBBA b | bBaba a, B → aBb | ab. For string s∈L(G), let n₁(s)=#a's and n₂(s)=#b's. Which is/are true?",
+    "type": "Multiple Choice",
+    "options": {
+      "A": "There is a string s with n₁(s) < n₂(s)",
+      "B": "For every string s, n₁(s) ≥ n₂(s)",
+      "C": "There is a string s with n₁(s) > 2n₂(s)",
+      "D": "For every string s, n₁(s) ≤ 2n₂(s)"
+    },
+    "correctAnswer": "A"
+  }
+]

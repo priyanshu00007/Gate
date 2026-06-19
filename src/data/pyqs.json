@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "subject": "OS",
+    "year": 2024,
+    "difficulty": "HARD",
+    "title": "VIRTUAL MEMORY TRANSLATION SCHEMES",
+    "snippet": "CRITICAL CALCULATION OF PAGE FAULTS GIVEN A TWO-LEVEL MULTI-PAGING STRING...",
+    "driveUrl": "https://drive.google.com/drive/folders/11"
+  },
+  {
+    "id": 2,
+    "subject": "DS",
+    "year": 2023,
+    "difficulty": "MEDIUM",
+    "title": "AVL TREE BALANCE COEFFICIENTS",
+    "snippet": "ROTATIONAL SEQUENCE TRACING AFTER THE INSERTION OF A SPECIFIC KEY SEQUENCE...",
+    "driveUrl": "https://drive.google.com/drive/folders/12"
+  },
+  {
+    "id": 3,
+    "subject": "ALGO",
+    "year": 2024,
+    "difficulty": "MEDIUM",
+    "title": "DIJKSTRA COMPLEXITY LIMITS",
+    "snippet": "ANALYZING GRAPH EDGE PROCESSING CONSTANTS USING AN OPTIMIZED FIBONACCI HEAP...",
+    "driveUrl": "https://drive.google.com/drive/folders/13"
+  }
+]

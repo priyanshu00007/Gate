@@ -1,0 +1,11 @@
+[
+  { "id": "ga", "label": "General Aptitude", "file": "ga" },
+  { "id": "em", "label": "Engineering Mathematics", "file": "em" },
+  { "id": "dsa", "label": "Data Structures & Algorithms", "file": "dsa" },
+  { "id": "algo", "label": "Algorithms", "file": "algo" },
+  { "id": "os", "label": "Operating Systems", "file": "os" },
+  { "id": "dbms", "label": "DBMS", "file": "dbms" },
+  { "id": "cn", "label": "Computer Networks", "file": "cn" },
+  { "id": "toc", "label": "Theory of Computation", "file": "toc" },
+  { "id": "cd", "label": "Compiler Design", "file": "cd" }
+]
